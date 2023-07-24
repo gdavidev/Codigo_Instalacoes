@@ -3,6 +3,9 @@
     padding: 1% 5% 3% 5%;
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
+    column-gap: 5px;
+    row-gap: 10px;
 }
 
 .card {
@@ -52,8 +55,6 @@ hr {
 @media screen and (min-width: 628px) {
     .card_container {
         grid-template-columns: 1fr 1fr;
-        column-gap: 5px;
-        row-gap: 10px;
     }
 }
 
