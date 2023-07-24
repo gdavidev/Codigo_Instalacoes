@@ -12,7 +12,7 @@
 
 .slider_obj img {
     min-width: 100%;
-    min-height: 40vh;
+    max-height: 40vh;
 }
 
 .slider_prev, .slider_next {
@@ -60,7 +60,7 @@ background-color: #717171;
     }
 
     .slider_obj img {
-        min-height: 50vh;
+        max-height: 50vh;
     }
 }
 
@@ -70,6 +70,6 @@ background-color: #717171;
     }
     
     .slider_obj img {
-        min-height: 60vh;
+        max-height: 60vh;
     }
 }
